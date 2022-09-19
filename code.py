@@ -1,17 +1,14 @@
-import board
-import neopixel
 import time
+import board
+import adafruit_hcsr04
 
-dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
-dot.brightness = 0.5 
-
-print("Make it red!")
-
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D7, echo_pin=board.D1)
 while True:
-    dot.fill((255, 0, 0))
-    time.sleep(1)
-    dot.fill((0, 102, 0))
-    time.sleep((1))
-    dot.fill((0, 0, 255))
-    time.sleep((1))
+    try:
+        print((sonar.distance,))
+    except RuntimeError:
+        print("Retrying!")
+    time.sleep(0.1)
+
+
 
