@@ -2,6 +2,7 @@ import time
 import board
 import adafruit_hcsr04
 import neopixel
+import simpleio 
 
 sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D3, echo_pin=board.D2)
 dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
@@ -14,12 +15,14 @@ while True:
     except RuntimeError:
         print("Retrying!")
     time.sleep(0.1) 
-    if sonar.distance > 20:
-        dot.fill((0, 255, 0))
+    if sonar.distance >= 5 and sonar.distance <= 20:
+        simpleio.map_range(sonar.distance,5,20,0,255)
+        dot.fill((0, 0, 255))
     else:
         dot.fill((0, 0, 255))
-    if sonar.distance < 20 and sonar.distance > 5:
-        dot.fill((0, 0, 255))
+    if sonar.distance >= 0 and sonar.distance <= 5:
+         simpleio.map_range(sonar.distance,5,20,0,255)
+         dot.fill((0, 0, 255))
         
 
     
