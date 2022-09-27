@@ -11,12 +11,26 @@ Welcome to my Circuit Python Page!
 ## Hello_CircuitPython
 
 ### Description & Code
-Description goes here
+This is the first CP assignment. We pretty much have to make the neopixel change colors. 
 
-Here's how you make code look like code:
 
 ```python
-Code goes here
+import board
+import neopixel
+import time
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+dot.brightness = 0.5 
+
+print("Make it red!")
+
+while True:
+    dot.fill((255, 0, 0))
+    time.sleep(1)
+    dot.fill((0, 102, 0))
+    time.sleep((1))
+    dot.fill((0, 0, 255))
+    time.sleep((1))
 
 ```
 
