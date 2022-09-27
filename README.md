@@ -1,13 +1,13 @@
-# BasicArduino
-I'm going to learn how to use an Arduino, and make awesome things with it!
+# Circuit Python
+Welcome to my Circuit Python Page!
 
 
 ## TableofContents
 * [TableOfContents](#TableOfContents)
-* [HelloArduino](#HelloArduino)
-* [FiniteLEDBlink](#FiniteLEDBlink)
-* [VariableLEDBlink](#VariableLEDBlink)
-* [ButtonActivatedLED](#ButtonActivatedLED)
+* [Hello Circuit Python](#HelloCircuitPython)
+* [Circuit Python Servo](#CircuitPythonServo)
+* [CP Distance Sensor](#CPDistanceSensor)
+* [Circuit Python LCD](#CircuitPythonLCD)
 
 ## HelloArduino
 
