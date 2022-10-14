@@ -8,7 +8,7 @@ Welcome to my Circuit Python Page!
 * [NextAssignmentGoesHere](#NextAssignment)
 ---
 
-## Hello_CircuitPython
+# Hello_CircuitPython
 
 ### Description & Code
 This is the first CP assignment. We pretty much have to make the neopixel change colors. 
@@ -49,7 +49,7 @@ This assignment was petty fun to do. Making the neopixel light up and this also 
 
 
 
-## CircuitPython_Servo
+# CircuitPython_Servo
 
 ### Description & Code
 
@@ -69,7 +69,7 @@ Pictures / Gifs of your work should go here.  You need to communicate what your 
 
 
 
-## CircuitPython_LCD
+# CircuitPython_LCD
 
 ### Description & Code
 
@@ -90,7 +90,7 @@ Pictures / Gifs of your work should go here.  You need to communicate what your 
 
 
 
-## NextAssignment
+# NextAssignment
 
 ### Description & Code
 
