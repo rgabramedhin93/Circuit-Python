@@ -38,7 +38,7 @@ while True:
 ### Evidence
 
 
-![spinningMetro_Optimized](https://user-images.githubusercontent.com/54641488/192549584-18285130-2e3b-4631-8005-0792c2942f73.gif)
+![rgb](https://raw.githubusercontent.com/rgabramedhin93/Circuit-Python/master/rgb%20color%20change.png)
 
 
 ### Wiring
