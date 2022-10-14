@@ -54,7 +54,24 @@ This assignment was petty fun to do. Making the neopixel light up and this also 
 ### Description & Code
 
 ```python
-Code goes here
+import time
+import board
+import pwmio
+import servo
+
+# create a PWMOut object on Pin A2.
+pwm = pwmio.PWMOut(board.A1, duty_cycle=2 ** 15, frequency=50)
+
+# Create a servo object, my_servo.
+my_servo = servo.Servo(pwm)
+
+while True:
+    for angle in range(0, 180, 30):  # 0 - 180 degrees, 5 degrees at a time.
+        my_servo.angle = 180
+        time.sleep(0.05)
+    for angle in range(180, 0, -30): # 180 - 0 degrees, 5 degrees at a time.
+        my_servo.angle = 0
+        time.sleep(0.05)
 
 ```
 
