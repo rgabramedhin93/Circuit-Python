@@ -77,7 +77,7 @@ while True:
 
 ### Evidence
 
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+![rgb](https://raw.githubusercontent.com/rgabramedhin93/Circuit-Python/master/rgb%20color%20change.png)
 
 ### Wiring
 
