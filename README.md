@@ -84,8 +84,7 @@ while True:
 ![Servo wiring](https://user-images.githubusercontent.com/113116262/193041474-d091f6f6-306f-421a-9c83-9b513aab9223.png) wiring cred. https://github.com/jhelmke45/CircuitPython
 
 ### Reflection
-For this assignment, 
-
+Overall, this assignment was kind of hard. At first I had some problems with the code but I eventually figured it out. I got a lot of help from Holden, so I was able to do this assignment. Definitely something to look out for in the future is definitely looking over your code before you complete the assignment. 
 
 
 # CircuitPython_LCD
