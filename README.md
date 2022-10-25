@@ -36,7 +36,6 @@ while True:
 
 
 ### Evidence
-![ezgif-4-d46c662a38](https://user-images.githubusercontent.com/71406926/197799292-accaf38b-d874-4b74-a0c0-0d01c2c10cc7.gif)
 
 
 
@@ -77,7 +76,8 @@ while True:
 ```
 
 ### Evidence
-[title](https://drive.google.com/file/d/1CcqNxybahmtFGP3vWDXUN9-aFShGKLGD/view?usp=sharing)
+![ezgif-4-d46c662a38](https://user-images.githubusercontent.com/71406926/197799292-accaf38b-d874-4b74-a0c0-0d01c2c10cc7.gif)
+
 
 
 
