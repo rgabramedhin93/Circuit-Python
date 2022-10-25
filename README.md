@@ -45,7 +45,7 @@ while True:
 Image cred. https://github.com/egarcia28/CircuitPython#wiring
 
 ### Reflection
-This assignment was petty fun to do. Making the neopixel light up and this also being my first circuit python assignment was pretty cool. Somethings that went wrong were trying to understand what the commands would do and also getting the code right. Overall I think I did pretty well. 
+This assignment was pretty fun to do. Making the neopixel light up and this also being my first circuit python assignment was pretty cool. Somethings that went wrong were trying to understand what the commands would do and also getting the code right. Overall I think I did pretty well. 
 
 
 
