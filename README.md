@@ -53,7 +53,7 @@ This assignment was petty fun to do. Making the neopixel light up and this also 
 # CircuitPython_Servo
 
 ### Description & Code
-
+For this assignment, we are using circuit python to make a servo move. 
 ```python
 import time
 import board
@@ -84,7 +84,7 @@ while True:
 ![Servo wiring](https://user-images.githubusercontent.com/113116262/193041474-d091f6f6-306f-421a-9c83-9b513aab9223.png) wiring cred. https://github.com/jhelmke45/CircuitPython
 
 ### Reflection
-
+For this assignment, 
 
 
 
