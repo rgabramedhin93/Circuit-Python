@@ -80,11 +80,8 @@ while True:
 ![ezgif-4-d46c662a38](https://user-images.githubusercontent.com/71406926/197799292-accaf38b-d874-4b74-a0c0-0d01c2c10cc7.gif)
 
 
-
-
-
-
 ### Wiring
+![Servo wiring](https://user-images.githubusercontent.com/113116262/193041474-d091f6f6-306f-421a-9c83-9b513aab9223.png)
 
 ### Reflection
 
