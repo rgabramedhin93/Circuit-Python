@@ -76,7 +76,7 @@ while True:
 ```
 
 ### Evidence
-[Servo Video](https://drive.google.com/file/d/1CcqNxybahmtFGP3vWDXUN9-aFShGKLGD/view)
+[Servo Video](https://im4.ezgif.com/tmp/ezgif-4-d6c70c0f46.gif)
 
 
 ### Wiring
