@@ -76,7 +76,7 @@ while True:
 ```
 
 ### Evidence
-![title](https://drive.google.com/file/d/1CcqNxybahmtFGP3vWDXUN9-aFShGKLGD/view?usp=sharing)
+
 
 
 ### Wiring
