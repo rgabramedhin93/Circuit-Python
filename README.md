@@ -5,7 +5,8 @@ Welcome to my Circuit Python Page!
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
-* [NextAssignmentGoesHere](#NextAssignment)
+* [Circuit Python Distance Sensor](#CircuitPython_Distance_Sensor)
+* [NextAssignmentGoesHere](#Nextassignment)
 ---
 
 # Hello_CircuitPython
@@ -159,15 +160,15 @@ https://user-images.githubusercontent.com/71406926/198095929-d65705ec-f77a-4a0e-
 ### Wiring
 
 ### Reflection
-The LCD assingment was definitely the hardest Circuit Python assignment I've had to do. It took a while for me to do it, and a lot of coding. Sometimes the LCD wouldn't turn on, sometimes the code would just not work. It was pretty annoying. But I ended up getting inspiration from other classmates and used some of their code. One thing I learned is that if your having trouble, you can use other classmates code BUT with CREDIT.
+The LCD assingment was definitely the hardest Circuit Python assignment I've had to do. It took a while for me to do it, and a lot of coding. Sometimes the LCD wouldn't turn on, sometimes the code would just not work. It was pretty annoying. But I ended up getting inspiration from other classmates and used some of their code. One thing I learned is that if your having trouble, you can use other classmates code BUT with CREDIT. Overall, it was tough but I got through it with a lot of help.
 
 
 
 
-# NextAssignment
+# CircuitPython_Distance_Sensor
 
 ### Description & Code
-
+For this assignment, we had to make the neopixel change colors depending on the distance you are from the ultrasonic senor. 
 ```python
 Code goes here
 
