@@ -168,13 +168,42 @@ The LCD assingment was definitely the hardest Circuit Python assignment I've had
 # CircuitPython_Distance_Sensor
 
 ### Description & Code
-For this assignment, we had to make the neopixel change colors depending on the distance you are from the ultrasonic senor. 
+For this assignment, we had to make the neopixel change colors depending on the distance you are from the ultrasonic sensor. 
 ```python
-Code goes here
+import time
+import board
+import adafruit_hcsr04
+import neopixel
+import simpleio 
+distance = 0
+
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D3, echo_pin=board.D2)
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+dot.brightness = 0.5
+
+while True:
+    try:
+        distance = sonar.distance 
+        print((distance))
+    except RuntimeError:
+        print("oopsy daisy!")
+    time.sleep(0.1) 
+    if distance >= 5 and distance <= 20:
+        simpleio.map_range(distance,5,20,0,255)
+        dot.fill((0, 0, 255))
+    else:
+        dot.fill((255, 0, 0))
+    if distance >= 0 and distance <= 5:
+         simpleio.map_range(distance,5,0,255,0)
+         dot.fill((0, 255, 0))
 
 ```
 
 ### Evidence
+
+
+https://user-images.githubusercontent.com/71406926/198099247-39468172-9a51-47e3-b4e8-2d5562340257.mov
+
 
 ### Wiring
 
