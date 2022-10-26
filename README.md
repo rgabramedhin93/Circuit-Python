@@ -92,6 +92,7 @@ Overall, this assignment was kind of hard. At first I had some problems with the
 ### Description & Code
 
 ```python
+Credit Jack Helmke
 import board
 import time
 from lcd.lcd import LCD
@@ -158,7 +159,7 @@ https://user-images.githubusercontent.com/71406926/198095929-d65705ec-f77a-4a0e-
 ### Wiring
 
 ### Reflection
-The LCD assingment was definitely the hardest Circuit Python assignment I've had to do. It took a while for me to do it, and a lot of coding. Sometimes the LCD wouldn't turn on, sometimes the code would just not work. It was pretty annoying. But I ended up getting inspiration from other classmates and used some of their code. One thing I learned is that
+The LCD assingment was definitely the hardest Circuit Python assignment I've had to do. It took a while for me to do it, and a lot of coding. Sometimes the LCD wouldn't turn on, sometimes the code would just not work. It was pretty annoying. But I ended up getting inspiration from other classmates and used some of their code. One thing I learned is that if your having trouble, you can use other classmates code BUT with CREDIT.
 
 
 
