@@ -150,12 +150,15 @@ while True:
 
 ### Evidence
 
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+
+https://user-images.githubusercontent.com/71406926/198095929-d65705ec-f77a-4a0e-8127-135f01dcfef2.mov
+
+
 
 ### Wiring
 
 ### Reflection
-
+The LCD assingment was definitely the hardest Circuit Python assignment I've had to do. It took a while for me to do it, and a lot of coding. Sometimes the LCD wouldn't turn on, sometimes the code would just not work. It was pretty annoying. But I ended up getting inspiration from other classmates and used some of their code. One thing I learned is that
 
 
 
