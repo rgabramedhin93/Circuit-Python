@@ -92,7 +92,7 @@ Overall, this assignment was kind of hard. At first I had some problems with the
 ### Description & Code
 
 ```python
-Credit Jack Helmke
+// credit Jack Helmke
 import board
 import time
 from lcd.lcd import LCD
