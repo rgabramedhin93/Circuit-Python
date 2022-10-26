@@ -206,5 +206,6 @@ https://user-images.githubusercontent.com/71406926/198099247-39468172-9a51-47e3-
 
 
 ### Wiring
-
+![Wiring](https://user-images.githubusercontent.com/112961430/197537630-7a8b370f-e29f-4c5f-ad99-c78c346eddf5.png)
+Credit- https://github.com/kstanfo00/CircuitPython
 ### Reflection
