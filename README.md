@@ -209,4 +209,4 @@ https://user-images.githubusercontent.com/71406926/198099247-39468172-9a51-47e3-
 ![Wiring](https://user-images.githubusercontent.com/112961430/197537630-7a8b370f-e29f-4c5f-ad99-c78c346eddf5.png)
 Credit- https://github.com/kstanfo00/CircuitPython
 ### Reflection
-Oveall, this assignment was pretty fun to do. I liked that if depending on how far your finger is from the sensor, the color changes on the neopixel on the metro. In my opinion the assginment wasn't TOO hard, even though I had my struggles as always. I learned from it and now I feel good about it. One thing to look out for is in your code when you try to get the distance values correct. They are kind of confusing (well at least to me). 
+Overall, this assignment was pretty fun to do. I liked that if depending on how far your finger is from the sensor, the color changes on the neopixel on the metro. In my opinion the assginment wasn't TOO hard, even though I had my struggles as always. I learned from it and now I feel good about it. One thing to look out for is in your code when you try to get the distance values correct. They are kind of confusing (well at least to me). 
