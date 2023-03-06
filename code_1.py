@@ -1,67 +1,68 @@
-# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
+# SPDX-FileCopyrightText: 2018 Anne Barela for Adafruit Industries
+#
 # SPDX-License-Identifier: MIT
 
-# Use this example for digital pin control of an H-bridge driver
-# like a DRV8833, TB6612 or L298N.
-
 import time
+from adafruit_motor import stepper 
 import board
-import digitalio
-from adafruit_motor import stepper
 from analogio import AnalogIn
+import digitalio
+import pwmio
+import simpleio
+import lib.smoothing
+ 
 
-
-DELAY = 0.01
-STEPS = 200
 pot = AnalogIn(board.A0)
-# You can use any available GPIO pin on both a microcontroller and a Raspberry Pi.
-# The following pins are simply a suggestion. If you use different pins, update
-# the following code to use your chosen pins.
+STEPS = 200 
+#limit = digitalio.DigitalInOut(board.D8) 
+#limit.direction = digitalio.Direction.INPUT 
+#limit.pull = digitalio.Pull.UP 
 
-# To use with CircuitPython and a microcontroller:
 coils = (
-    digitalio.DigitalInOut(board.D9),  # A1
-    digitalio.DigitalInOut(board.D10),  # A2
-    digitalio.DigitalInOut(board.D11),  # B1
-    digitalio.DigitalInOut(board.D12),  # B2
+    digitalio.DigitalInOut(board.D12),  # A1  #setup for the stepper
+    digitalio.DigitalInOut(board.D11),  # A2
+    digitalio.DigitalInOut(board.D9),   # B1
+    digitalio.DigitalInOut(board.D10),  # B2
 )
 
-# To use with a Raspberry Pi:
-# coils = (
-#     digitalio.DigitalInOut(board.D19),  # A1
-#     digitalio.DigitalInOut(board.D26),  # A2
-#     digitalio.DigitalInOut(board.D20),  # B1
-#     digitalio.DigitalInOut(board.D21),  # B2
-# )
 
 for coil in coils:
     coil.direction = digitalio.Direction.OUTPUT
 
+smoothing = lib.smoothing.Smoothing()  #defining the library of smoothing.py in this file
+Steps= 0 
 motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
 
-  
-for step in range(STEPS):
-    motor.onestep()
-    time.sleep(DELAY)
 
-for step in range(STEPS):
-    motor.onestep(direction=stepper.BACKWARD)
-    time.sleep(DELAY)
+while True:
+    # smoothvalue = int(simpleio.map_range(pot.value,0,65535,0,4500))
+     
+    #4500 end point of the range of the stepper
+    smoothvalue = int(simpleio.map_range(smoothing.update(pot.value),0,65535,0,4500))   #Use smoothing to determine where the potentiometer is within our mapped range. 
+    print(smoothvalue, Steps) 
+    #print(limit.value) 
+    
+    
+    if abs(smoothvalue - Steps) >4: 
+        #print(smoothvalue, Steps) 
+        
+        if smoothvalue > Steps:      #moving the stepper to the mapped and smoothed value and counting the steps
+           motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+           Steps = Steps +1       
+        time.sleep(.001)  
 
-for step in range(STEPS):
-    motor.onestep(style=stepper.DOUBLE)
-    time.sleep(DELAY)
 
-for step in range(STEPS):
-    motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
-    time.sleep(DELAY)
+        if smoothvalue < Steps:       #moving the stepper backwards when neccesary. Also going to the smoothed and mapped value
+           motor.onestep(style=stepper.DOUBLE, direction= stepper.FORWARD)
+           Steps = Steps -1          
+        time.sleep(.001) 
+    
 
-for step in range(STEPS):
-    motor.onestep(style=stepper.INTERLEAVE)
-    time.sleep(DELAY)
 
-for step in range(STEPS):
-    motor.onestep(direction=stepper.BACKWARD, style=stepper.INTERLEAVE)
-    time.sleep(DELAY)
-
-motor.release()
+   
+     
+ 
+     
+#while target != steps
+    #if target is > steps
+        #move stepper up one step and add 1 to steps 
