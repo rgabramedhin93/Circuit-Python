@@ -39,9 +39,9 @@ while True:
      
     #4500 end point of the range of the stepper
     smoothvalue = int(simpleio.map_range(smoothing.update(pot.value),0,65535,0,4500))   #Use smoothing to determine where the potentiometer is within our mapped range. 
-    print(smoothvalue, Steps) 
+    print("smoothvalue", smoothvalue, "   Steps" , Steps) 
     #print(limit.value) 
-    
+    time.sleep(.01)
     
     if abs(smoothvalue - Steps) >4: 
         #print(smoothvalue, Steps) 
