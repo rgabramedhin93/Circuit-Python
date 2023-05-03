@@ -214,3 +214,6 @@ Overall, this assignment was pretty fun to do. I liked that if depending on how 
 
 
 # CircuitPython_TemperatureLCD
+### Description & Code
+For this assignment, we used an LCD to display the temperature coming from the temperature senor in Celcius and Farenheit. 
+
