@@ -165,6 +165,11 @@ The LCD assingment was definitely the hardest Circuit Python assignment I've had
 
 
 # CircuitPython_Motor_Control
+### Description & Code
+For this assignment, we had to control a DC motor using a potentiometer. 
+
+![Code](https://raw.githubusercontent.com/rgabramedhin93/Circuit-Python/master/2%20button%20lcd%20wiring.png)
+
 
 
 
