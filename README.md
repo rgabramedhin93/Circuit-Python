@@ -281,4 +281,7 @@ https://drive.google.com/file/d/1UMoYxz0ZRloDG47LyuzHOfMfm7gkT8hu/view?usp=share
 ### Wiring
 ![Wiring](https://raw.githubusercontent.com/rgabramedhin93/Circuit-Python/master/tmplcd%20pic%20wiring.png)
 
+### Reflection
+I think this assignment went pretty well, it was a nice challenge code wise because we had to be able to not only display the temperature coming from the sensor onto the LCD screen, but also showing the degrees in farenheit and celcius. 
+
 
