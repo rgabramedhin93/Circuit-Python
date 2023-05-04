@@ -278,4 +278,7 @@ while True:
 ### Evidence
 https://drive.google.com/file/d/1UMoYxz0ZRloDG47LyuzHOfMfm7gkT8hu/view?usp=share_link
 
+### Wiring
+![Wiring](https://raw.githubusercontent.com/rgabramedhin93/Circuit-Python/master/tmplcd%20pic%20wiring.png)
+
 
