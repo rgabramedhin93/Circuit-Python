@@ -170,6 +170,9 @@ For this assignment, we had to control a DC motor using a potentiometer.
 
 ![Code](https://raw.githubusercontent.com/rgabramedhin93/Circuit-Python/master/process%20motor%20control%20code.png)
 
+### Evidence
+
+
 
 
 
