@@ -8,6 +8,7 @@ Welcome to my Circuit Python Page!
 * [CircuitPython_Motor Control](#CircuitPython_Motor_Control)
 * [Circuit Python Distance Sensor](#CircuitPython_Distance_Sensor)
 * [CircuitPython_TemperatureLCD](#CircuitPython_TemperatureLCD)
+* [CircuitPython_RotaryEncoder](#CircuitPython_RotaryEncoder)
 ---
 
 # Hello_CircuitPython
@@ -324,5 +325,8 @@ https://drive.google.com/file/d/1UMoYxz0ZRloDG47LyuzHOfMfm7gkT8hu/view?usp=share
 
 ### Reflection
 I think this assignment went pretty well, it was a nice challenge code wise because we had to be able to not only display the temperature coming from the sensor onto the LCD screen, but also showing the degrees in farenheit and celcius. 
+
+
+
 
 
