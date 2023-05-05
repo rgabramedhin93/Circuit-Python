@@ -9,6 +9,7 @@ Welcome to my Circuit Python Page!
 * [Circuit Python Distance Sensor](#CircuitPython_Distance_Sensor)
 * [CircuitPython_TemperatureLCD](#CircuitPython_TemperatureLCD)
 * [CircuitPython_RotaryEncoder](#CircuitPython_RotaryEncoder)
+* [CircuitPython_Photointerrupter](#CircuitPython_Photointerrupter)
 ---
 
 # Hello_CircuitPython
@@ -184,29 +185,6 @@ For this assignment, we had to control a DC motor using a potentiometer.
 I got help with this assignment from Mr. Helmstetter a while ago. I just forgot to put it in my documentation. At first, I was struggling with getting the potentiometer wired up correctly. I eventually used some resources to get it wired good. Then getting the DC motor to be able to get controlled by the potentiometer was the hardest part. But I got and eventually finished it. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # CircuitPython_Distance_Sensor
 
 ### Description & Code
@@ -325,6 +303,12 @@ https://drive.google.com/file/d/1UMoYxz0ZRloDG47LyuzHOfMfm7gkT8hu/view?usp=share
 
 ### Reflection
 I think this assignment went pretty well, it was a nice challenge code wise because we had to be able to not only display the temperature coming from the sensor onto the LCD screen, but also showing the degrees in farenheit and celcius. 
+
+
+# CircuitPython_Photointerrupter
+### Description & Code
+For this assignment, I have to wire up a photo interrupter so that an LED will light up when I put something on between the legs of the interrupter.
+
 
 
 
