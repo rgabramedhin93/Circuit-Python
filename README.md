@@ -177,7 +177,10 @@ For this assignment, we had to control a DC motor using a potentiometer.
 
 ### Wiring
 
+![Wiring](https://raw.githubusercontent.com/rgabramedhin93/Circuit-Python/master/motor%20control%20ss.png)
 
+### Reflection
+I got help with this assignment from Mr. Helmstetter a while ago. I just forgot to put it in my documentation. At first, I was struggling with getting the potentiometer wired up correctly. I eventually used some resources to get it wired good. Then getting the DC motor to be able to get controlled by the potentiometer was the hardest part. But I got and eventually finished it. 
 
 
 
