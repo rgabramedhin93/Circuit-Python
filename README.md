@@ -343,6 +343,8 @@ while True:
 ### Evidence/Wiring
 ![Evidence = Wiring](https://raw.githubusercontent.com/rgabramedhin93/Circuit-Python/master/Photointerrupter.png)
 
+### Reflection
+Overall this assignment is kind of cool, It wasn't too hard but I did have some trouble with some of the code. Now that I know how to use this, I think I could possibly incorporate this into a future project. It's easy to wire up and I think that I wouldn't have a problem with getting this to work.
 
 
 
