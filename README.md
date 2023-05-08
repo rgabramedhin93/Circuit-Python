@@ -309,7 +309,39 @@ I think this assignment went pretty well, it was a nice challenge code wise beca
 ### Description & Code
 For this assignment, I have to wire up a photo interrupter so that an LED will light up when I put something on between the legs of the interrupter.
 
+```python
+import board
+import digitalio
+import time
 
+led_pin = digitalio.DigitalInOut(board.D8)
+led_pin.direction = digitalio.Direction.OUTPUT
+
+int_pin = digitalio.DigitalInOut(board.D3)
+int_pin.switch_to_input(pull=digitalio.Pull.UP)
+
+pp = 0
+old_pp = 0
+
+def blink(channel):
+    global pp
+    global state
+    state = not state
+    pp += 1
+
+int_pin.irq(trigger=digitalio.EdgeChange, handler=blink)
+
+state = False
+while True:
+    led_pin.value = state
+    if old_pp != pp:
+        print(pp)
+    old_pp = pp
+    time.sleep(0.01)
+
+
+
+```
 
 
 
