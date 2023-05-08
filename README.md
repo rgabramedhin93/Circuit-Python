@@ -340,8 +340,8 @@ while True:
     time.sleep(0.01)
     
 ```
-### Evidence
-
+### Evidence/Wiring
+![Evidence = Wiring](https://raw.githubusercontent.com/rgabramedhin93/Circuit-Python/master/Photointerrupter.png)
 
 
 
