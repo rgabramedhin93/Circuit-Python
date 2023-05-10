@@ -307,7 +307,7 @@ I think this assignment went pretty well, it was a nice challenge code wise beca
 # CircuitPython_RotaryEncoder
 ### Description & Code
 For this assignment, we had to use a rotary encoder to make a traffic light and it also being displayed on an LCD. 
-
+cred. [River](https://github.com/rivques/)
 ```python
 import time
 import rotaryio
