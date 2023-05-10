@@ -10,6 +10,7 @@ Welcome to my Circuit Python Page!
 * [CircuitPython_TemperatureLCD](#CircuitPython_TemperatureLCD)
 * [CircuitPython_RotaryEncoder](#CircuitPython_RotaryEncoder)
 * [CircuitPython_Photointerrupter](#CircuitPython_Photointerrupter)
+* [CAD_Test_Reflection](#CAD_Test_Reflection)
 ---
 
 # Hello_CircuitPython
@@ -431,6 +432,10 @@ while True:
 
 ### Reflection
 Overall this assignment is kind of cool, It wasn't too hard but I did have some trouble with some of the code. Now that I know how to use this, I think I could possibly incorporate this into a future project. It's easy to wire up and I think that I wouldn't have a problem with getting this to work.
+
+
+# CAD_Test_Reflection
+I personally thought it was pretty hard, and obviously I think other people agree. I unfortunatley didn't pass the exam, and didn't retake it either. I just didn't feel like I would do better, and I just didn't want to take it again. I think maybe we could have started to prep for the test earlier, because I was still confused on some of the aspects. Overall, I could have reached out on a couple of more occasions to fully capture what I had to do. 
 
 
 
