@@ -385,19 +385,9 @@ while True:
 
 ### Wiring
 cred. [Holden Austin]( https://github.com/haustin71/Circuit-Python#Rotary_Encoder)
- [Wiring](https://raw.githubusercontent.com/haustin71/Circuit-Python/43b5247dc4f9c58f2804cb8cabea0733aec0314b/Images%20and%20Videos/RotaryEncoder%20Wiring%20Diagram.PNG)
-
-
-
-
-
-
-
-
-
-
-
-
+![Wiring](https://raw.githubusercontent.com/haustin71/Circuit-Python/43b5247dc4f9c58f2804cb8cabea0733aec0314b/Images%20and%20Videos/RotaryEncoder%20Wiring%20Diagram.PNG)
+### Reflection
+Overall, I pretty much got the assignment from Holden. I was struggling with it, and he helped me finish it. The assignment itself is pretty cool. Using a Rotary Encoder to make a traffic light and displaying it on an LCD screen seems pretty cool and it was kind of fun to play with. 
 
 
 
