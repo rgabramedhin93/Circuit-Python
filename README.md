@@ -381,10 +381,11 @@ while True:
 
 ```
 ### Evidence
+[title](https://drive.google.com/file/d/1Hyd2WotE6Gq3mpgZ8H1b6dUIUOEAVpCy/view?usp=sharing)
 
-![alt text](https://drive.google.com/file/d/1Hyd2WotE6Gq3mpgZ8H1b6dUIUOEAVpCy/view?usp=sharing)
-
-
+### Wiring
+cred. [Holden Austin]( https://github.com/haustin71/Circuit-Python#Rotary_Encoder)
+ [Wiring](https://raw.githubusercontent.com/haustin71/Circuit-Python/43b5247dc4f9c58f2804cb8cabea0733aec0314b/Images%20and%20Videos/RotaryEncoder%20Wiring%20Diagram.PNG)
 
 
 
